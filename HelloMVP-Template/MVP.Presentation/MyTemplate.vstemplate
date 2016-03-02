@@ -1,0 +1,30 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>MVP.Presentation</Name>
+    <Description>MVP (Presenter)</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>MVP.Presentation</DefaultName>
+    <ProvideDefaultName>false</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$ext_safeprojectname$.Presentation.csproj" File="MVP.Presentation.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="IApplicationController.cs">IApplicationController.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IMainView.cs">IMainView.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IMainViewPresenter.cs">IMainViewPresenter.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IPresenter.cs">IPresenter.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IView.cs">IView.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainViewPresenter.cs">MainViewPresenter.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Presenter.cs">Presenter.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
